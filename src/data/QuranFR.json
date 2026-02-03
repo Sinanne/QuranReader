@@ -1,0 +1,596 @@
+[
+  {
+    "aya_id": "1",
+    "sura": "1",
+    "aya_sura_id": "1",
+    "aya_eng": "Au nom d'Allah, le Tout Miséricordieux, le Très Miséricordieux."
+  },
+  {
+    "aya_id": "2",
+    "sura": "1",
+    "aya_sura_id": "2",
+    "aya_eng": "Louange à Allah, Seigneur de l'univers."
+  },
+  {
+    "aya_id": "3",
+    "sura": "1",
+    "aya_sura_id": "3",
+    "aya_eng": "Le Tout Miséricordieux, le Très Miséricordieux,"
+  },
+  {
+    "aya_id": "4",
+    "sura": "1",
+    "aya_sura_id": "4",
+    "aya_eng": "Maître du Jour de la rétribution."
+  },
+  {
+    "aya_id": "5",
+    "sura": "1",
+    "aya_sura_id": "5",
+    "aya_eng": "C'est Toi [Seul] que nous adorons, et c'est Toi [Seul] dont nous implorons secours."
+  },
+  {
+    "aya_id": "6",
+    "sura": "1",
+    "aya_sura_id": "6",
+    "aya_eng": "Guide-nous dans le droit chemin,"
+  },
+  {
+    "aya_id": "7",
+    "sura": "1",
+    "aya_sura_id": "7",
+    "aya_eng": "le chemin de ceux que Tu as comblés de faveurs, non pas de ceux qui ont encouru Ta colère, ni des égarés."
+  },
+  {
+    "aya_id": "8",
+    "sura": "2",
+    "aya_sura_id": "1",
+    "aya_eng": "Alif, Lâm, Mim."
+  },
+  {
+    "aya_id": "9",
+    "sura": "2",
+    "aya_sura_id": "2",
+    "aya_eng": "C'est le Livre au sujet duquel il n'y a aucun doute, c'est un guide pour les pieux,"
+  },
+  {
+    "aya_id": "10",
+    "sura": "2",
+    "aya_sura_id": "3",
+    "aya_eng": "qui croient à l'invisible et accomplissent la Salât et dépensent (dans l'obéissance à Allah), de ce que Nous leur avons attribué,"
+  },
+  {
+    "aya_id": "11",
+    "sura": "2",
+    "aya_sura_id": "4",
+    "aya_eng": "Ceux qui croient à ce qui t'a été descendu (révélé) et à ce qui a été descendu avant toi et qui croient fermement à la vie future."
+  },
+  {
+    "aya_id": "12",
+    "sura": "2",
+    "aya_sura_id": "5",
+    "aya_eng": "Ceux-là sont sur le bon chemin de leur Seigneur, et ce sont eux qui réussissent (dans cette vie et dans la vie future)."
+  },
+  {
+    "aya_id": "13",
+    "sura": "2",
+    "aya_sura_id": "6",
+    "aya_eng": "[Mais] certes les infidèles que tu les avertisses ou que tu ne les avertisses pas, ils ne croient pas."
+  },
+  {
+    "aya_id": "14",
+    "sura": "2",
+    "aya_sura_id": "7",
+    "aya_eng": "Allah a scellé leurs cœurs et leurs oreilles; et un voile épais leur couvre la vue; et pour eux il y aura un grand châtiment."
+  },
+  {
+    "aya_id": "15",
+    "sura": "2",
+    "aya_sura_id": "8",
+    "aya_eng": "Parmi les gens, il y a ceux qui disent: «Nous croyons en Allah et au Jour dernier!» tandis qu'en fait, ils n'y croient pas."
+  },
+  {
+    "aya_id": "16",
+    "sura": "2",
+    "aya_sura_id": "9",
+    "aya_eng": "Ils cherchent à tromper Allah et les croyants; mais ils ne trompent qu'eux-mêmes, et ils ne s'en rendent pas compte."
+  },
+  {
+    "aya_id": "17",
+    "sura": "2",
+    "aya_sura_id": "10",
+    "aya_eng": "Il y a dans leurs cœurs une maladie (de doute et d'hypocrisie), et Allah laisse croître leur maladie. Ils auront un châtiment douloureux, pour avoir menti."
+  },
+  {
+    "aya_id": "18",
+    "sura": "2",
+    "aya_sura_id": "11",
+    "aya_eng": "Et quand on leur dit: «Ne semez pas la corruption sur la terre», ils disent: «Au contraire nous ne sommes que des réformateurs!»"
+  },
+  {
+    "aya_id": "19",
+    "sura": "2",
+    "aya_sura_id": "12",
+    "aya_eng": "Certes, ce sont eux les véritables corrupteurs, mais ils ne s'en rendent pas compte."
+  },
+  {
+    "aya_id": "20",
+    "sura": "2",
+    "aya_sura_id": "13",
+    "aya_eng": "Et quand on leur dit: «Croyez comme les gens ont cru», ils disent: «Croirons-nous comme ont cru les faibles d'esprit?» Certes, ce sont eux les véritables faibles d'esprit, mais ils ne le savent pas."
+  },
+  {
+    "aya_id": "21",
+    "sura": "2",
+    "aya_sura_id": "14",
+    "aya_eng": "Quand ils rencontrent ceux qui ont cru, ils disent: «Nous croyons» mais quand ils se trouvent seuls avec leurs diables, ils disent: «Nous sommes avec vous; en effet nous ne faisions que nous moquer (d'eux)»."
+  },
+  {
+    "aya_id": "22",
+    "sura": "2",
+    "aya_sura_id": "15",
+    "aya_eng": "C'est Allah qui Se moque d'eux et les endurcira dans leur révolte et prolongera sans fin leur égarement."
+  },
+  {
+    "aya_id": "23",
+    "sura": "2",
+    "aya_sura_id": "16",
+    "aya_eng": "Ce sont eux qui ont troqué le droit chemin contre l'égarement. Eh bien, leur négoce n'a point profité. Et ils ne sont pas sur la bonne voie."
+  },
+  {
+    "aya_id": "24",
+    "sura": "2",
+    "aya_sura_id": "17",
+    "aya_eng": "Ils ressemblent à quelqu'un qui a allumé un feu; puis quand le feu a illuminé tout à l'entour, Allah a fait disparaître leur lumière et les a abandonnés dans les ténèbres où ils ne voient plus rien."
+  },
+  {
+    "aya_id": "25",
+    "sura": "2",
+    "aya_sura_id": "18",
+    "aya_eng": "Sourds, muets, aveugles, ils ne peuvent donc pas revenir (de leur égarement)."
+  },
+  {
+    "aya_id": "26",
+    "sura": "2",
+    "aya_sura_id": "19",
+    "aya_eng": "(On peut encore les comparer à ces gens qui,) au moment où les nuées éclatent en pluies, chargées de ténèbres, de tonnerre et éclairs, se mettent les doigts dans les oreilles, terrorisés par le fracas de la foudre et craignant la mort; et Allah encercle de tous côtés les infidèles."
+  },
+  {
+    "aya_id": "27",
+    "sura": "2",
+    "aya_sura_id": "20",
+    "aya_eng": "L'éclair presque leur emporte la vue: chaque fois qu'il leur donne de la lumière, ils avancent; mais dès qu'il fait obscur, ils s'arrêtent. Si Allah le voulait Il leur enlèverait certes l'ouïe et la vue, car Allah a pouvoir sur toute chose."
+  },
+  {
+    "aya_id": "28",
+    "sura": "2",
+    "aya_sura_id": "21",
+    "aya_eng": "O hommes! Adorez votre Seigneur, qui vous a créés vous et ceux qui vous ont précédés. Ainsi atteindriez-vous à la piété."
+  },
+  {
+    "aya_id": "29",
+    "sura": "2",
+    "aya_sura_id": "22",
+    "aya_eng": "C'est Lui qui vous a fait la terre pour lit, et le ciel pour toit; qui précipite la pluie du ciel et par elle fait surgir toutes sortes de fruits pour vous nourrir, ne Lui cherchez donc pas des égaux, alors que vous savez (tout cela)."
+  },
+  {
+    "aya_id": "30",
+    "sura": "2",
+    "aya_sura_id": "23",
+    "aya_eng": "Si vous avez un doute sur ce que Nous avons révélé à Notre Serviteur, tâchez donc de produire une sourate semblable et appelez vos témoins, (les idoles) que vous adorez en dehors d'Allah, si vous êtes véridiques."
+  },
+  {
+    "aya_id": "31",
+    "sura": "2",
+    "aya_sura_id": "24",
+    "aya_eng": "Si vous n'y parvenez pas et, à coup sûr, vous n'y parviendrez jamais, parez-vous donc contre le feu qu'alimenteront les hommes et les pierres, lequel est réservé aux infidèles."
+  },
+  {
+    "aya_id": "32",
+    "sura": "2",
+    "aya_sura_id": "25",
+    "aya_eng": "Annonce à ceux qui croient et pratiquent de bonnes œuvres qu'ils auront pour demeures des jardins sous lesquels coulent les ruisseaux; chaque fois qu'ils seront gratifiés d'un fruit des jardins ils diront: «C'est bien là ce qui nous avait été servi auparavant». Or c'est quelque chose de semblable (seulement dans la forme); ils auront là des épouses pures, et là ils demeureront éternellement."
+  },
+  {
+    "aya_id": "33",
+    "sura": "2",
+    "aya_sura_id": "26",
+    "aya_eng": "Certes, Allah ne se gêne point de citer en exemple n'importe quoi: un moustique ou quoi que ce soit au-dessus; quant aux croyants, ils savent bien qu'il s'agit de la vérité venant de la part de leur Seigneur; quant aux infidèles, ils se demandent «Qu'a voulu dire Allah par un tel exemple?» Par cela, nombreux sont ceux qu'Il égare et nombreux sont ceux qu'Il guide; mais Il n'égare par cela que les pervers,"
+  },
+  {
+    "aya_id": "34",
+    "sura": "2",
+    "aya_sura_id": "27",
+    "aya_eng": "qui rompent le pacte qu'ils avaient fermement conclu avec Allah, coupent ce qu'Allah a ordonné d'unir, et sèment la corruption sur la terre. Ceux-là sont les vrais perdants."
+  },
+  {
+    "aya_id": "35",
+    "sura": "2",
+    "aya_sura_id": "28",
+    "aya_eng": "Comment pouvez-vous renier Allah alors qu'Il vous a donné la vie, quand vous en étiez privés? Puis Il vous fera mourir; puis Il vous fera revivre et enfin c'est à Lui que vous retournerez."
+  },
+  {
+    "aya_id": "36",
+    "sura": "2",
+    "aya_sura_id": "29",
+    "aya_eng": "C'est Lui qui a créé pour vous tout ce qui est sur la terre, puis Il a orienté Sa volonté vers le ciel et en fit sept cieux. Et Il est Omniscient."
+  },
+  {
+    "aya_id": "37",
+    "sura": "2",
+    "aya_sura_id": "30",
+    "aya_eng": "Lorsque Ton Seigneur confia aux Anges: «Je vais établir sur la terre un vicaire «Khalifa». Ils dirent: «Vas-Tu y désigner un qui y mettra le désordre et répandra le sang, quand nous sommes là à Te sanctifier et à Te glorifier?» - Il dit: «En vérité, Je sais ce que vous ne savez pas!»."
+  },
+  {
+    "aya_id": "38",
+    "sura": "2",
+    "aya_sura_id": "31",
+    "aya_eng": "Et Il apprit à Adam tous les noms (de toutes choses), puis Il les présenta aux Anges et dit: «Informez-Moi des noms de ceux-là, si vous êtes véridiques!» (dans votre prétention que vous êtes plus méritants qu'Adam)."
+  },
+  {
+    "aya_id": "39",
+    "sura": "2",
+    "aya_sura_id": "32",
+    "aya_eng": "- Ils dirent: «Gloire à Toi! Nous n'avons de savoir que ce que Tu nous a appris. Certes c'est Toi l'Omniscient, le Sage»."
+  },
+  {
+    "aya_id": "40",
+    "sura": "2",
+    "aya_sura_id": "33",
+    "aya_eng": "Il dit: «O Adam, informe-les de ces noms ;» Puis quand celui-ci les eut informés de ces noms, Allah dit: «Ne vous ai-Je pas dit que Je connais les mystères des cieux et de la terre, et que Je sais ce que vous divulguez et ce que vous cachez?»"
+  },
+  {
+    "aya_id": "41",
+    "sura": "2",
+    "aya_sura_id": "34",
+    "aya_eng": "Et lorsque Nous demandâmes aux Anges de se prosterner devant Adam, ils se prosternèrent à l'exception d'Iblis qui refusa, s'enfla d'orgueil et fut parmi les infidèles."
+  },
+  {
+    "aya_id": "42",
+    "sura": "2",
+    "aya_sura_id": "35",
+    "aya_eng": "Et Nous dîmes: «O Adam, habite le Paradis toi et ton épouse, et nourrissez-vous-en de partout à votre guise; mais n'approchez pas de l'arbre que voici: sinon vous seriez du nombre des injustes»."
+  },
+  {
+    "aya_id": "43",
+    "sura": "2",
+    "aya_sura_id": "36",
+    "aya_eng": "Peu de temps après, Satan les fit glisser de là et les fit sortir du lieu où ils étaient. Et Nous dîmes: «Descendez (du Paradis); ennemis les uns des autres. Et pour vous il y aura une demeure sur la terre, et un usufruit pour un temps."
+  },
+  {
+    "aya_id": "44",
+    "sura": "2",
+    "aya_sura_id": "37",
+    "aya_eng": "Puis Adam reçut de son Seigneur des paroles, et Allah agréa son repentir car c'est Lui certes, le Repentant, le Miséricordieux."
+  },
+  {
+    "aya_id": "45",
+    "sura": "2",
+    "aya_sura_id": "38",
+    "aya_eng": "- Nous dîmes: «Descendez d'ici, vous tous! Toutes les fois que Je vous enverrai un guide, ceux qui [le] suivront n'auront rien à craindre et ne seront point affligés»."
+  },
+  {
+    "aya_id": "46",
+    "sura": "2",
+    "aya_sura_id": "39",
+    "aya_eng": "Et ceux qui ne croient pas (à nos messagers) et traitent de mensonge Nos révélations, ceux-là sont les gens du Feu où ils demeureront éternellement."
+  },
+  {
+    "aya_id": "47",
+    "sura": "2",
+    "aya_sura_id": "40",
+    "aya_eng": "O enfants d'Israël, rappelez-vous Mon bienfait dont Je vous ai comblés. Si vous tenez vos engagements vis-à-vis de Moi, Je tiendrai les miens. Et c'est Moi que vous devez redouter."
+  },
+  {
+    "aya_id": "48",
+    "sura": "2",
+    "aya_sura_id": "41",
+    "aya_eng": "Et croyez à ce que J'ai fait descendre, en confirmation de ce qui était déjà avec vous; et ne soyez pas les premiers à le rejeter. Et n'échangez pas Mes révélations contre un vil prix. Et c'est Moi que vous devez craindre."
+  },
+  {
+    "aya_id": "49",
+    "sura": "2",
+    "aya_sura_id": "42",
+    "aya_eng": "Et ne mêlez pas le faux à la vérité. Ne cachez pas sciemment la vérité."
+  },
+  {
+    "aya_id": "50",
+    "sura": "2",
+    "aya_sura_id": "43",
+    "aya_eng": "Et accomplissez la Salât, et acquittez la Zakât, et inclinez-vous avec ceux qui s'inclinent."
+  },
+  {
+    "aya_id": "51",
+    "sura": "2",
+    "aya_sura_id": "44",
+    "aya_eng": "Commanderez-vous aux gens de faire le bien, et vous oubliez vous-mêmes de le faire, alors que vous récitez le Livre? Etes-vous donc dépourvus de raison?"
+  },
+  {
+    "aya_id": "52",
+    "sura": "2",
+    "aya_sura_id": "45",
+    "aya_eng": "Et cherchez secours dans l'endurance et la salât: certes, la Salât est une lourde obligation, sauf pour les humbles,"
+  },
+  {
+    "aya_id": "53",
+    "sura": "2",
+    "aya_sura_id": "46",
+    "aya_eng": "qui ont la certitude de rencontrer leur Seigneur (après leur résurrection) et retourner à Lui seul."
+  },
+  {
+    "aya_id": "54",
+    "sura": "2",
+    "aya_sura_id": "47",
+    "aya_eng": "O Enfants d'Israël, rappelez-vous Mon bienfait dont Je vous ai comblés, (Rappelez-vous) que Je vous ai préférés à tous les peuples (de l'époque)."
+  },
+  {
+    "aya_id": "55",
+    "sura": "2",
+    "aya_sura_id": "48",
+    "aya_eng": "Et redoutez le jour où nulle âme ne suffira en quoi que ce soit à une autre; où l'on n'acceptera d'elle aucune intercession; et où on ne recevra d'elle aucune compensation. Et ils ne seront point secourus."
+  },
+  {
+    "aya_id": "56",
+    "sura": "2",
+    "aya_sura_id": "49",
+    "aya_eng": "Et [rappelez-vous] lorsque Nous vous avons délivrés des gens de Pharaon; qui vous infligeaient le pire châtiment: en égorgeant vos fils et épargnant vos femmes. C'était là une grande épreuve de la part de votre Seigneur."
+  },
+  {
+    "aya_id": "57",
+    "sura": "2",
+    "aya_sura_id": "50",
+    "aya_eng": "Et [rappelez-vous] lorsque Nous avons fendu la mer pour vous donner passage!... Nous vous avons donc délivrés, et noyé les gens de Pharaon, tandis que vous regardiez."
+  },
+  {
+    "aya_id": "58",
+    "sura": "2",
+    "aya_sura_id": "51",
+    "aya_eng": "Et [rappelez-vous] lorsque Nous donnâmes rendez-vous à Moïse pendant quarante nuits!... Puis en son absence vous avez pris le Veau pour idole alors que vous étiez injustes (à l'égard de vous-mêmes en adorant autre qu'Allah)."
+  },
+  {
+    "aya_id": "59",
+    "sura": "2",
+    "aya_sura_id": "52",
+    "aya_eng": "Mais en dépit de cela Nous vous pardonnâmes, afin que vous reconnaissiez (Nos bienfaits à votre égard)."
+  },
+  {
+    "aya_id": "60",
+    "sura": "2",
+    "aya_sura_id": "53",
+    "aya_eng": "Et [rappelez-vous] lorsque Nous avons donné à Moïse le Livre et le Discernement afin que vous soyez guidés."
+  },
+  {
+    "aya_id": "61",
+    "sura": "2",
+    "aya_sura_id": "54",
+    "aya_eng": "Et [rappelez-vous] lorsque Moïse dit à son peuple: «O mon peuple, certes vous vous êtes fait du tort à vous-mêmes en prenant le Veau pour idole. Revenez donc à votre Créateur; puis, tuez donc les coupables vous-mêmes: ce serait mieux pour vous, auprès de votre Créateur!»... C'est ainsi qu'Il agréa votre repentir; car c'est Lui, certes, le Repentant et le Miséricordieux!"
+  },
+  {
+    "aya_id": "62",
+    "sura": "2",
+    "aya_sura_id": "55",
+    "aya_eng": "Et [rappelez-vous] lorsque vous dites: «O Moïse, nous ne te croirons qu'après avoir vu Allah clairement»!... Alors la foudre vous saisit tandis que vous regardiez."
+  },
+  {
+    "aya_id": "63",
+    "sura": "2",
+    "aya_sura_id": "56",
+    "aya_eng": "Puis Nous vous ressuscitâmes après votre mort afin que vous soyez reconnaissants."
+  },
+  {
+    "aya_id": "64",
+    "sura": "2",
+    "aya_sura_id": "57",
+    "aya_eng": "Et Nous vous couvrîmes de l'ombre d'un nuage; et fîmes descendre sur vous la manne et les cailles: - «Mangez des délices que Nous vous avons attribués!» - Ce n'est pas à Nous qu'ils firent du tort, mais ils se firent tort à eux-mêmes."
+  },
+  {
+    "aya_id": "65",
+    "sura": "2",
+    "aya_sura_id": "58",
+    "aya_eng": "Et [rappelez-vous] lorsque Nous dîmes: «Entrez dans cette ville, et mangez-y à l'envie où il vous plaira; mais entrez par la porte en vous prosternant et demandez la «rémission» (de vos péchés); Nous vous pardonnerons vos fautes si vous faites cela et donnerons davantage de récompense pour les bienfaisants."
+  },
+  {
+    "aya_id": "66",
+    "sura": "2",
+    "aya_sura_id": "59",
+    "aya_eng": "Mais, à ces paroles, les pervers en substituèrent d'autres, et pour les punir de leur fourberie Nous leur envoyâmes du ciel un châtiment avilissant."
+  },
+  {
+    "aya_id": "67",
+    "sura": "2",
+    "aya_sura_id": "60",
+    "aya_eng": "Et [rappelez-vous] quand Moïse demanda de l'eau pour désaltérer son peuple, c'est alors que Nous dîmes: «Frappe le rocher avec ton bâton». Et tout d'un coup, douze sources en jaillirent, et certes, chaque tribu sut où s'abreuver! - «Mangez et buvez de ce qu'Allah vous accorde; et ne semez pas de troubles sur la terre comme des fauteurs de désordre»."
+  },
+  {
+    "aya_id": "68",
+    "sura": "2",
+    "aya_sura_id": "61",
+    "aya_eng": "Et [rappelez-vous] quand vous dîtes: «O Moïse, nous ne pouvons plus tolérer une seule nourriture. Prie donc ton Seigneur pour qu'Il nous fasse sortir de la terre ce qu'elle fait pousser, de ses légumes, ses concombres, son ail (ou blé), ses lentilles et ses oignons!» - Il vous répondit: «Voulez-vous échanger le meilleur pour le moins bon? Descendez donc à n'importe quelle ville; vous y trouverez certainement ce que vous demandez!». L'avilissement et la misère s'abattirent sur eux; ils encoururent la colère d'Allah. Cela est parce qu'ils reniaient les révélations d'Allah, et qu'ils tuaient sans droit les prophètes. Cela parce qu'ils désobéissaient et transgressaient."
+  },
+  {
+    "aya_id": "69",
+    "sura": "2",
+    "aya_sura_id": "62",
+    "aya_eng": "Certes, ceux qui ont cru, ceux qui se sont judaïsés, les Nazaréens, et les sabéens, quiconque d'entre eux a cru en Allah au Jour dernier et accompli de bonnes œuvres, sera récompensé par son Seigneur; il n'éprouvera aucune crainte et il ne sera jamais affligé."
+  },
+  {
+    "aya_id": "70",
+    "sura": "2",
+    "aya_sura_id": "63",
+    "aya_eng": "(Et rappelez-vous) quand Nous avons contracté un engagement avec vous et brandi sur vous le Mont -: «Tenez ferme ce que Nous vous avons donné et souvenez-vous de ce qui s'y trouve afin que vous soyez pieux!»"
+  },
+  {
+    "aya_id": "71",
+    "sura": "2",
+    "aya_sura_id": "64",
+    "aya_eng": "Puis vous vous en détournâtes après vos engagements, n'eût été donc la grâce d'Allah et Sa miséricorde, vous seriez certes parmi les perdants."
+  },
+  {
+    "aya_id": "72",
+    "sura": "2",
+    "aya_sura_id": "65",
+    "aya_eng": "Vous avez certainement connu ceux des vôtres qui transgressèrent le Sabbat. Et bien Nous leur dîmes: «Soyez des singes abjects!»"
+  },
+  {
+    "aya_id": "73",
+    "sura": "2",
+    "aya_sura_id": "66",
+    "aya_eng": "Nous fîmes donc de cela un exemple pour les villes qui l'entouraient alors et une exhortation pour les pieux."
+  },
+  {
+    "aya_id": "74",
+    "sura": "2",
+    "aya_sura_id": "67",
+    "aya_eng": "(Et rappelez-vous) lorsque Moïse dit à son peuple: «Certes Allah vous ordonne d'immoler une vache». Ils dirent: «Nous prends-tu en moquerie?» «Qu'Allah me garde d'être du nombre des ignorants» dit-il."
+  },
+  {
+    "aya_id": "75",
+    "sura": "2",
+    "aya_sura_id": "68",
+    "aya_eng": "- Ils dirent: «Demande pour nous à ton Seigneur qu'Il nous précise ce qu'elle doit être». - Il dit: «Certes Allah dit que c'est bien une vache, ni vieille ni vierge, d'un âge moyen, entre les deux. Faites donc ce qu'on vous commande»."
+  },
+  {
+    "aya_id": "76",
+    "sura": "2",
+    "aya_sura_id": "69",
+    "aya_eng": "- Ils dirent: «Demande donc pour nous à ton Seigneur qu'Il nous précise sa couleur». - Il dit: «Allah dit que c'est une vache jaune, de couleur vive et plaisante à voir»."
+  },
+  {
+    "aya_id": "77",
+    "sura": "2",
+    "aya_sura_id": "70",
+    "aya_eng": "- Ils dirent: «Demande pour nous à ton Seigneur qu'Il nous précise ce qu'elle est car pour nous, les vaches se confondent. Mais, nous y serions certainement bien guidés, si Allah le veut»."
+  },
+  {
+    "aya_id": "78",
+    "sura": "2",
+    "aya_sura_id": "71",
+    "aya_eng": "- Il dit: «Allah dit que c'est bien une vache qui n'a pas été asservie à labourer la terre ni à arroser le champ, indemne d'infirmité et dont la couleur est unie». - Ils dirent: «Te voilà enfin, tu nous as apporté la vérité!» Ils l'immolèrent alors mais i"
+  },
+  {
+    "aya_id": "79",
+    "sura": "2",
+    "aya_sura_id": "72",
+    "aya_eng": "Et quand vous aviez tué un homme et que chacun de vous cherchait à se disculper!... Mais Allah démasque ce que vous dissimuliez."
+  },
+  {
+    "aya_id": "80",
+    "sura": "2",
+    "aya_sura_id": "73",
+    "aya_eng": "Nous dîmes donc: «Frappez le tué avec une partie de la vache». - Ainsi Allah ressuscite les morts et vous montre les signes (de Sa puissance) afin que vous raisonniez"
+  },
+  {
+    "aya_id": "81",
+    "sura": "2",
+    "aya_sura_id": "74",
+    "aya_eng": "Puis, et en dépit de tout cela, vos cœurs se sont endurcis; ils sont devenus comme des pierres ou même plus durs encore; car il y a des pierres d'où jaillissent les ruisseaux, d'autres se fendent pour qu'en surgisse l'eau, d'autres s'affaissent par crainte d'Allah. Et Allah n'est certainement jamais inattentif à ce que vous faites"
+  },
+  {
+    "aya_id": "82",
+    "sura": "2",
+    "aya_sura_id": "75",
+    "aya_eng": "- Eh bien, espérez-vous [Musulmans] que des pareils gens (les Juifs) vous partageront la foi? alors qu'un groupe d'entre eux; après avoir entendu et compris la parole d'Allah, la falsifièrent sciemment."
+  },
+  {
+    "aya_id": "83",
+    "sura": "2",
+    "aya_sura_id": "76",
+    "aya_eng": "Et quand ils rencontrent des croyants, ils disent: «Nous croyons» et, une fois seuls entre eux, ils disent: «Allez-vous confier aux musulmans ce qu'Allah vous a révélé pour leur fournir, ainsi, un argument contre vous devant votre Seigneur! Etes-vous donc dépourvus de raison?»."
+  },
+  {
+    "aya_id": "84",
+    "sura": "2",
+    "aya_sura_id": "77",
+    "aya_eng": "- Ne savent-ils pas qu'en vérité Allah sait ce qu'ils cachent et ce qu'ils divulguent?"
+  },
+  {
+    "aya_id": "85",
+    "sura": "2",
+    "aya_sura_id": "78",
+    "aya_eng": "Et il y a parmi eux des illettrés qui ne savent rien du Livre hormis des prétentions et ils ne font que des conjectures."
+  },
+  {
+    "aya_id": "86",
+    "sura": "2",
+    "aya_sura_id": "79",
+    "aya_eng": "Malheur, donc, à ceux qui de leurs propres mains composent un livre puis le présentent comme venant d'Allah pour en tirer un vil profit! - Malheur à eux, donc, à cause de ce que leurs mains ont écrit, et malheur à eux à cause de ce qu'ils en profitent!"
+  },
+  {
+    "aya_id": "87",
+    "sura": "2",
+    "aya_sura_id": "80",
+    "aya_eng": "Et ils ont dit: «Le Feu ne nous touchera que pour quelques jours comptés!». Dis: «Auriez-vous pris un engagement avec Allah - car Allah ne manque jamais à Son engagement; - non, mais vous dites sur Allah ce que vous ne savez pas»."
+  },
+  {
+    "aya_id": "88",
+    "sura": "2",
+    "aya_sura_id": "81",
+    "aya_eng": "Bien au contraire! Ceux qui font le mal et qui se font cerner par leurs péchés, ceux-là sont les gens du Feu où ils demeureront éternellement."
+  },
+  {
+    "aya_id": "89",
+    "sura": "2",
+    "aya_sura_id": "82",
+    "aya_eng": "Et ceux qui croient et pratiquent les bonnes œuvres, ceux-là sont les gens du Paradis où ils demeureront éternellement."
+  },
+  {
+    "aya_id": "90",
+    "sura": "2",
+    "aya_sura_id": "83",
+    "aya_eng": "Et [rappelle-toi], lorsque Nous avons pris l'engagement des enfants d'Israël de n'adorer qu'Allah, de faire le bien envers les pères, les mères, les proches parents, les orphelins et les nécessiteux, d'avoir de bonnes paroles avec les gens; d'accomplir régulièrement la Salât et d'acquitter la Zakât! - Mais à l'exception d'un petit nombre de vous, vous manquiez à vos engagements en vous détournant de Nos commandements."
+  },
+  {
+    "aya_id": "91",
+    "sura": "2",
+    "aya_sura_id": "84",
+    "aya_eng": "Et rappelez-vous, lorsque Nous obtînmes de vous l'engagement de ne pas vous verser le sang, [par le meurtre] de ne pas vous expulser les uns les autres de vos maisons. Puis vous y avez souscrit avec votre propre témoignage."
+  },
+  {
+    "aya_id": "92",
+    "sura": "2",
+    "aya_sura_id": "85",
+    "aya_eng": "Quoique ainsi engagés, voilà que vous vous entretuez, que vous expulsez de leurs maisons une partie d'entre vous contre qui vous prêtez main forte par péché et agression. Mais quelle contradiction! Si vos coreligionnaires vous viennent captifs vous les rançonnez alors qu'il vous était interdit de les expulser (de chez eux). Croyez-vous donc en une partie du Livre et rejetez-vous le reste? Ceux d'entre vous qui agissent de la sorte ne méritent que l'ignominie dans cette vie, et au Jour de la Résurrection ils seront refoulés au plus dur châtiment, et Allah n'est pas inattentif à ce que vous faites."
+  },
+  {
+    "aya_id": "93",
+    "sura": "2",
+    "aya_sura_id": "86",
+    "aya_eng": "Voilà ceux qui échangent la vie présente contre la vie future. Eh bien, leur châtiment ne sera pas diminué. Et ils ne seront point secourus."
+  },
+  {
+    "aya_id": "94",
+    "sura": "2",
+    "aya_sura_id": "87",
+    "aya_eng": "Certes, Nous avons donné le Livre à Moïse; Nous avons envoyé après lui des prophètes successifs. Et Nous avons donné des preuves à Jésus fils de Marie, et Nous l'avons renforcé du Saint-Esprit. Est-ce qu'à chaque fois, qu'un Messager vous apportait des vérités contraires à vos souhaits vous vous enfliez d'orgueil? Vous traitiez les uns d'imposteurs et vous tuiez les autres."
+  },
+  {
+    "aya_id": "95",
+    "sura": "2",
+    "aya_sura_id": "88",
+    "aya_eng": "Et ils dirent: «Nos cœurs sont enveloppés et impénétrables» - Non mais Allah les a maudits à cause de leur infidélité, leur foi est donc médiocre."
+  },
+  {
+    "aya_id": "96",
+    "sura": "2",
+    "aya_sura_id": "89",
+    "aya_eng": "Et quand leur vint d'Allah un Livre confirmant celui qu'ils avaient déjà, - alors qu'auparavant ils cherchaient la suprématie sur les mécréants, - quand donc leur vint cela même qu'ils reconnaissaient, ils refusèrent d'y croire. Que la malédiction d'Allah soit sur les mécréants!"
+  },
+  {
+    "aya_id": "97",
+    "sura": "2",
+    "aya_sura_id": "90",
+    "aya_eng": "Comme est vil ce contre quoi ils ont troqué leurs âmes! Ils ne croient pas en ce qu'Allah a fait descendre, révoltés à l'idée qu'Allah, de par Sa grâce, fasse descendre la révélation sur ceux de Ses serviteurs qu'Il veut. Ils ont donc acquis colère sur colère, car un châtiment avilissant attend les infidèles!"
+  },
+  {
+    "aya_id": "98",
+    "sura": "2",
+    "aya_sura_id": "91",
+    "aya_eng": "Et quand on leur dit: «Croyez à ce qu'Allah a fait descendre», ils disent: «Nous croyons à ce qu'on a fait descendre à nous». Et ils rejettent le reste, alors qu'il est la vérité confirmant ce qu'il y avait déjà avec eux. - Dis: «Pourquoi donc avez-vous tué auparavant les prophètes d'Allah, si vous étiez croyants?»."
+  },
+  {
+    "aya_id": "99",
+    "sura": "2",
+    "aya_sura_id": "92",
+    "aya_eng": "Et en effet Moïse vous est venu avec les preuves. Malgré cela, une fois absent, vous avez pris le Veau pour idole, alors que vous étiez injustes."
+  }
+]
