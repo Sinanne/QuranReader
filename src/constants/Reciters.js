@@ -1,0 +1,107 @@
+export const RECITERS = {
+  alafasy: {
+    id: 'alafasy',
+    name: 'Mishary Rashad Al-Afasy',
+    nameAr: 'مشاري رشاد العفاسي',
+    baseUrl: 'https://everyayah.com/data/Alafasy_64kbps',
+    description: 'Clear and melodious recitation style',
+    quality: '64kbps',
+    language: 'Arabic',
+  },
+  abdulbaset: {
+    id: 'abdulbaset',
+    name: 'Abdul Basit Abdus Samad',
+    nameAr: 'عبد الباسط عبد الصمد',
+    baseUrl: 'https://everyayah.com/data/Abdul_Basit_Mujawwad_64kbps',
+    description: 'Famous Egyptian recitation style',
+    quality: '64kbps',
+    language: 'Arabic',
+  },
+  hudhaifi: {
+    id: 'hudhaifi',
+    name: 'Ali Al-Hudhaifi',
+    nameAr: 'علي الحذيفي',
+    baseUrl: 'https://everyayah.com/data/Hudhaifi_64kbps',
+    description: 'Emotional recitation style',
+    quality: '64kbps',
+    language: 'Arabic',
+  },
+  minshawy: {
+    id: 'minshawy',
+    name: 'Minshawy Al-Minshawy',
+    nameAr: 'محمد المنشاوي',
+    baseUrl: 'https://everyayah.com/data/Minshawy_64kbps',
+    description: 'Clear and calm recitation style',
+    quality: '64kbps',
+    language: 'Arabic',
+  },
+  sudais: {
+    id: 'sudais',
+    name: 'Abdurrahmaan As-Sudais',
+    nameAr: 'عبد الرحمن السديس',
+    baseUrl: 'https://everyayah.com/data/Abdurrahmaan_As-Sudais_64kbps',
+    description: 'Modern recitation style',
+    quality: '64kbps',
+    language: 'Arabic',
+  },
+  ghamadi: {
+    id: 'ghamadi',
+    name: 'Ghamadi Muhammad Ghamadi',
+    nameAr: 'غامدي محمد غامدي',
+    baseUrl: 'https://everyayah.com/data/Ghamadi_64kbps',
+    description: 'Traditional recitation style',
+    quality: '64kbps',
+    language: 'Arabic',
+  },
+  walk: {
+    id: 'walk',
+    name: 'Ibrahim Walk',
+    nameAr: 'إبراهيم واك',
+    baseUrl: 'https://everyayah.com/data/Ibrahim_Walk_64kbps',
+    description: 'Unique recitation style',
+    quality: '64kbps',
+    language: 'Arabic',
+  },
+  saad_ghamdi: {
+    id: 'saad_ghamdi',
+    name: 'Saad Al-Ghamdi',
+    nameAr: 'سعد الغامدي',
+    baseUrl: 'https://everyayah.com/data/Saad_Al_Ghamdi_64kbps',
+    description: 'Traditional Egyptian style',
+    quality: '64kbps',
+    language: 'Arabic',
+  },
+  english: {
+    id: 'english',
+    name: 'English Translation (by Ibrahim Walk)',
+    nameAr: 'الترجمة الإنجليزية',
+    baseUrl: 'https://everyayah.com/data/English_Ibrahim_Walk_64kbps',
+    description: 'English translation recitation',
+    quality: '64kbps',
+    language: 'English',
+  },
+  urdu: {
+    id: 'urdu',
+    name: 'Urdu Translation',
+    nameAr: 'الترجمة الأردية',
+    baseUrl: 'https://everyayah.com/data/Urdu_64kbps',
+    description: 'Urdu translation recitation',
+    quality: '64kbps',
+    language: 'Urdu',
+  },
+};
+
+export const RECITER_QUALITIES = {
+  low: '32kbps',
+  normal: '64kbps',
+  high: '128kbps',
+  master: '320kbps',
+};
+
+export const RECITER_LANGUAGES = {
+  arabic: 'Arabic',
+  english: 'English',
+  urdu: 'Urdu',
+};
+
+export const DEFAULT_RECITER = 'alafasy';
