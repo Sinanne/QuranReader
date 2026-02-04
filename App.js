@@ -16,10 +16,10 @@ const App = () => {
       try {
         await SplashScreen.preventAutoHideAsync();
         await Font.loadAsync({
-          'Amiri-Regular': require('./assets/fonts/Amiri-Regular.ttf'),
-          'Amiri': require('./assets/fonts/Amiri-Regular.ttf'),
-          'Amiri-Bold': require('./assets/fonts/Amiri-Bold.ttf'),
-          'SF Pro Display': require('./assets/fonts/SF-Pro.ttf'),
+          'Amiri-Regular': require('./src/assets/fonts/Amiri-Regular.ttf'),
+          'Amiri': require('./src/assets/fonts/Amiri-Regular.ttf'),
+          'Amiri-Bold': require('./src/assets/fonts/Amiri-Bold.ttf'),
+          'SF Pro Display': require('./src/assets/fonts/SF-Pro.ttf'),
         });
       } catch (e) {
         console.warn('Splash/Font Load Error:', e);
