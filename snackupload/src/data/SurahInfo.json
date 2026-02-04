@@ -1,0 +1,914 @@
+[
+  {
+    "sura": 1,
+    "name_eng": "Al-Faatiha",
+    "name": "سُورَةُ ٱلْفَاتِحَةِ",
+    "type": "Meccan",
+    "ayas": 7,
+    "juz": 1
+  },
+  {
+    "sura": 2,
+    "name_eng": "Al-Baqara",
+    "name": "سُورَةُ البَقَرَةِ",
+    "type": "Medinan",
+    "ayas": 286,
+    "juz": 1
+  },
+  {
+    "sura": 3,
+    "name_eng": "Aal-i-Imraan",
+    "name": "سُورَةُ آلِ عِمۡرَانَ",
+    "type": "Medinan",
+    "ayas": 200,
+    "juz": 3
+  },
+  {
+    "sura": 4,
+    "name_eng": "An-Nisaa",
+    "name": "سُورَةُ النِّسَاءِ",
+    "type": "Medinan",
+    "ayas": 176,
+    "juz": 4
+  },
+  {
+    "sura": 5,
+    "name_eng": "Al-Maaida",
+    "name": "سُورَةُ المَائـِدَةِ",
+    "type": "Medinan",
+    "ayas": 120,
+    "juz": 6
+  },
+  {
+    "sura": 6,
+    "name_eng": "Al-An'aam",
+    "name": "سُورَةُ الأَنۡعَامِ",
+    "type": "Meccan",
+    "ayas": 165,
+    "juz": 7
+  },
+  {
+    "sura": 7,
+    "name_eng": "Al-A'raaf",
+    "name": "سُورَةُ الأَعۡرَافِ",
+    "type": "Meccan",
+    "ayas": 206,
+    "juz": 8
+  },
+  {
+    "sura": 8,
+    "name_eng": "Al-Anfaal",
+    "name": "سُورَةُ الأَنفَالِ",
+    "type": "Medinan",
+    "ayas": 75,
+    "juz": 9
+  },
+  {
+    "sura": 9,
+    "name_eng": "At-Tawba",
+    "name": "سُورَةُ التَّوۡبَةِ",
+    "type": "Medinan",
+    "ayas": 129,
+    "juz": 10
+  },
+  {
+    "sura": 10,
+    "name_eng": "Yunus",
+    "name": "سُورَةُ يُونُسَ",
+    "type": "Meccan",
+    "ayas": 109,
+    "juz": 11
+  },
+  {
+    "sura": 11,
+    "name_eng": "Hud",
+    "name": "سُورَةُ هُودٍ",
+    "type": "Meccan",
+    "ayas": 123,
+    "juz": 11
+  },
+  {
+    "sura": 12,
+    "name_eng": "Yusuf",
+    "name": "سُورَةُ يُوسُفَ",
+    "type": "Meccan",
+    "ayas": 111,
+    "juz": 12
+  },
+  {
+    "sura": 13,
+    "name_eng": "Ar-Ra'd",
+    "name": "سُورَةُ الرَّعۡدِ",
+    "type": "Medinan",
+    "ayas": 43,
+    "juz": 13
+  },
+  {
+    "sura": 14,
+    "name_eng": "Ibrahim",
+    "name": "سُورَةُ إِبۡرَاهِيمَ",
+    "type": "Meccan",
+    "ayas": 52,
+    "juz": 13
+  },
+  {
+    "sura": 15,
+    "name_eng": "Al-Hijr",
+    "name": "سُورَةُ الحِجۡرِ",
+    "type": "Meccan",
+    "ayas": 99,
+    "juz": 14
+  },
+  {
+    "sura": 16,
+    "name_eng": "An-Nahl",
+    "name": "سُورَةُ النَّحۡلِ",
+    "type": "Meccan",
+    "ayas": 128,
+    "juz": 14
+  },
+  {
+    "sura": 17,
+    "name_eng": "Al-Israa",
+    "name": "سُورَةُ الإِسۡرَاءِ",
+    "type": "Meccan",
+    "ayas": 111,
+    "juz": 15
+  },
+  {
+    "sura": 18,
+    "name_eng": "Al-Kahf",
+    "name": "سُورَةُ الكَهۡفِ",
+    "type": "Meccan",
+    "ayas": 110,
+    "juz": 15
+  },
+  {
+    "sura": 19,
+    "name_eng": "Maryam",
+    "name": "سُورَةُ مَرۡيَمَ",
+    "type": "Meccan",
+    "ayas": 98,
+    "juz": 16
+  },
+  {
+    "sura": 20,
+    "name_eng": "Taa-Haa",
+    "name": "سُورَةُ طه",
+    "type": "Meccan",
+    "ayas": 135,
+    "juz": 16
+  },
+  {
+    "sura": 21,
+    "name_eng": "Al-Anbiyaa",
+    "name": "سُورَةُ الأَنبِيَاءِ",
+    "type": "Meccan",
+    "ayas": 112,
+    "juz": 17
+  },
+  {
+    "sura": 22,
+    "name_eng": "Al-Hajj",
+    "name": "سُورَةُ الحَجِّ",
+    "type": "Medinan",
+    "ayas": 78,
+    "juz": 17
+  },
+  {
+    "sura": 23,
+    "name_eng": "Al-Muminoon",
+    "name": "سُورَةُ المُؤۡمِنُونَ",
+    "type": "Meccan",
+    "ayas": 118,
+    "juz": 18
+  },
+  {
+    "sura": 24,
+    "name_eng": "An-Noor",
+    "name": "سُورَةُ النُّورِ",
+    "type": "Medinan",
+    "ayas": 64,
+    "juz": 18
+  },
+  {
+    "sura": 25,
+    "name_eng": "Al-Furqaan",
+    "name": "سُورَةُ الفُرۡقَانِ",
+    "type": "Meccan",
+    "ayas": 77,
+    "juz": 18
+  },
+  {
+    "sura": 26,
+    "name_eng": "Ash-Shu'araa",
+    "name": "سُورَةُ الشُّعَرَاءِ",
+    "type": "Meccan",
+    "ayas": 227,
+    "juz": 19
+  },
+  {
+    "sura": 27,
+    "name_eng": "An-Naml",
+    "name": "سُورَةُ النَّمۡلِ",
+    "type": "Meccan",
+    "ayas": 93,
+    "juz": 19
+  },
+  {
+    "sura": 28,
+    "name_eng": "Al-Qasas",
+    "name": "سُورَةُ القَصَصِ",
+    "type": "Meccan",
+    "ayas": 88,
+    "juz": 20
+  },
+  {
+    "sura": 29,
+    "name_eng": "Al-Ankaboot",
+    "name": "سُورَةُ العَنكَبُوتِ",
+    "type": "Meccan",
+    "ayas": 69,
+    "juz": 20
+  },
+  {
+    "sura": 30,
+    "name_eng": "Ar-Room",
+    "name": "سُورَةُ الرُّومِ",
+    "type": "Meccan",
+    "ayas": 60,
+    "juz": 21
+  },
+  {
+    "sura": 31,
+    "name_eng": "Luqman",
+    "name": "سُورَةُ لُقۡمَانَ",
+    "type": "Meccan",
+    "ayas": 34,
+    "juz": 21
+  },
+  {
+    "sura": 32,
+    "name_eng": "As-Sajda",
+    "name": "سُورَةُ السَّجۡدَةِ",
+    "type": "Meccan",
+    "ayas": 30,
+    "juz": 21
+  },
+  {
+    "sura": 33,
+    "name_eng": "Al-Ahzaab",
+    "name": "سُورَةُ الأَحۡزَابِ",
+    "type": "Medinan",
+    "ayas": 73,
+    "juz": 21
+  },
+  {
+    "sura": 34,
+    "name_eng": "Saba",
+    "name": "سُورَةُ سَبَإٍ",
+    "type": "Meccan",
+    "ayas": 54,
+    "juz": 22
+  },
+  {
+    "sura": 35,
+    "name_eng": "Faatir",
+    "name": "سُورَةُ فَاطِرٍ",
+    "type": "Meccan",
+    "ayas": 45,
+    "juz": 22
+  },
+  {
+    "sura": 36,
+    "name_eng": "Yaseen",
+    "name": "سُورَةُ يسٓ",
+    "type": "Meccan",
+    "ayas": 83,
+    "juz": 22
+  },
+  {
+    "sura": 37,
+    "name_eng": "As-Saaffaat",
+    "name": "سُورَةُ الصَّافَّاتِ",
+    "type": "Meccan",
+    "ayas": 182,
+    "juz": 23
+  },
+  {
+    "sura": 38,
+    "name_eng": "Saad",
+    "name": "سُورَةُ صٓ",
+    "type": "Meccan",
+    "ayas": 88,
+    "juz": 23
+  },
+  {
+    "sura": 39,
+    "name_eng": "Az-Zumar",
+    "name": "سُورَةُ الزُّمَرِ",
+    "type": "Meccan",
+    "ayas": 75,
+    "juz": 23
+  },
+  {
+    "sura": 40,
+    "name_eng": "Ghafir",
+    "name": "سُورَةُ غَافِرٍ",
+    "type": "Meccan",
+    "ayas": 85,
+    "juz": 24
+  },
+  {
+    "sura": 41,
+    "name_eng": "Fussilat",
+    "name": "سُورَةُ فُصِّلَتۡ",
+    "type": "Meccan",
+    "ayas": 54,
+    "juz": 24
+  },
+  {
+    "sura": 42,
+    "name_eng": "Ash-Shura",
+    "name": "سُورَةُ الشُّورَىٰ",
+    "type": "Meccan",
+    "ayas": 53,
+    "juz": 25
+  },
+  {
+    "sura": 43,
+    "name_eng": "Az-Zukhruf",
+    "name": "سُورَةُ الزُّخۡرُفِ",
+    "type": "Meccan",
+    "ayas": 89,
+    "juz": 25
+  },
+  {
+    "sura": 44,
+    "name_eng": "Ad-Dukhaan",
+    "name": "سُورَةُ الدُّخَانِ",
+    "type": "Meccan",
+    "ayas": 59,
+    "juz": 25
+  },
+  {
+    "sura": 45,
+    "name_eng": "Al-Jaathiya",
+    "name": "سُورَةُ الجَاثِيَةِ",
+    "type": "Meccan",
+    "ayas": 37,
+    "juz": 25
+  },
+  {
+    "sura": 46,
+    "name_eng": "Al-Ahqaf",
+    "name": "سُورَةُ الأَحۡقَافِ",
+    "type": "Meccan",
+    "ayas": 35,
+    "juz": 26
+  },
+  {
+    "sura": 47,
+    "name_eng": "Muhammad",
+    "name": "سُورَةُ مُحَمَّدٍ",
+    "type": "Medinan",
+    "ayas": 38,
+    "juz": 26
+  },
+  {
+    "sura": 48,
+    "name_eng": "Al-Fath",
+    "name": "سُورَةُ الفَتۡحِ",
+    "type": "Medinan",
+    "ayas": 29,
+    "juz": 26
+  },
+  {
+    "sura": 49,
+    "name_eng": "Al-Hujuraat",
+    "name": "سُورَةُ الحُجُرَاتِ",
+    "type": "Medinan",
+    "ayas": 18,
+    "juz": 26
+  },
+  {
+    "sura": 50,
+    "name_eng": "Qaaf",
+    "name": "سُورَةُ قٓ",
+    "type": "Meccan",
+    "ayas": 45,
+    "juz": 26
+  },
+  {
+    "sura": 51,
+    "name_eng": "Adh-Dhaariyat",
+    "name": "سُورَةُ الذَّارِيَاتِ",
+    "type": "Meccan",
+    "ayas": 60,
+    "juz": 26
+  },
+  {
+    "sura": 52,
+    "name_eng": "At-Tur",
+    "name": "سُورَةُ الطُّورِ",
+    "type": "Meccan",
+    "ayas": 49,
+    "juz": 27
+  },
+  {
+    "sura": 53,
+    "name_eng": "An-Najm",
+    "name": "سُورَةُ النَّجۡمِ",
+    "type": "Meccan",
+    "ayas": 62,
+    "juz": 27
+  },
+  {
+    "sura": 54,
+    "name_eng": "Al-Qamar",
+    "name": "سُورَةُ القَمَرِ",
+    "type": "Meccan",
+    "ayas": 55,
+    "juz": 27
+  },
+  {
+    "sura": 55,
+    "name_eng": "Ar-Rahmaan",
+    "name": "سُورَةُ الرَّحۡمَٰن",
+    "type": "Medinan",
+    "ayas": 78,
+    "juz": 27
+  },
+  {
+    "sura": 56,
+    "name_eng": "Al-Waaqia",
+    "name": "سُورَةُ الوَاقِعَةِ",
+    "type": "Meccan",
+    "ayas": 96,
+    "juz": 27
+  },
+  {
+    "sura": 57,
+    "name_eng": "Al-Hadid",
+    "name": "سُورَةُ الحَدِيدِ",
+    "type": "Medinan",
+    "ayas": 29,
+    "juz": 27
+  },
+  {
+    "sura": 58,
+    "name_eng": "Al-Mujaadila",
+    "name": "سُورَةُ المُجَادلَةِ",
+    "type": "Medinan",
+    "ayas": 22,
+    "juz": 28
+  },
+  {
+    "sura": 59,
+    "name_eng": "Al-Hashr",
+    "name": "سُورَةُ الحَشۡرِ",
+    "type": "Medinan",
+    "ayas": 24,
+    "juz": 28
+  },
+  {
+    "sura": 60,
+    "name_eng": "Al-Mumtahana",
+    "name": "سُورَةُ المُمۡتَحنَةِ",
+    "type": "Medinan",
+    "ayas": 13,
+    "juz": 28
+  },
+  {
+    "sura": 61,
+    "name_eng": "As-Saff",
+    "name": "سُورَةُ الصَّفِّ",
+    "type": "Medinan",
+    "ayas": 14,
+    "juz": 28
+  },
+  {
+    "sura": 62,
+    "name_eng": "Al-Jumu'a",
+    "name": "سُورَةُ الجُمُعَةِ",
+    "type": "Medinan",
+    "ayas": 11,
+    "juz": 28
+  },
+  {
+    "sura": 63,
+    "name_eng": "Al-Munaafiqoon",
+    "name": "سُورَةُ المُنَافِقُونَ",
+    "type": "Medinan",
+    "ayas": 11,
+    "juz": 28
+  },
+  {
+    "sura": 64,
+    "name_eng": "At-Taghaabun",
+    "name": "سُورَةُ التَّغَابُنِ",
+    "type": "Medinan",
+    "ayas": 18,
+    "juz": 28
+  },
+  {
+    "sura": 65,
+    "name_eng": "At-Talaaq",
+    "name": "سُورَةُ الطَّلَاقِ",
+    "type": "Medinan",
+    "ayas": 12,
+    "juz": 28
+  },
+  {
+    "sura": 66,
+    "name_eng": "At-Tahrim",
+    "name": "سُورَةُ التَّحۡرِيمِ",
+    "type": "Medinan",
+    "ayas": 12,
+    "juz": 28
+  },
+  {
+    "sura": 67,
+    "name_eng": "Al-Mulk",
+    "name": "سُورَةُ المُلۡكِ",
+    "type": "Meccan",
+    "ayas": 30,
+    "juz": 29
+  },
+  {
+    "sura": 68,
+    "name_eng": "Al-Qalam",
+    "name": "سُورَةُ القَلَمِ",
+    "type": "Meccan",
+    "ayas": 52,
+    "juz": 29
+  },
+  {
+    "sura": 69,
+    "name_eng": "Al-Haaqqa",
+    "name": "سُورَةُ الحَاقَّةِ",
+    "type": "Meccan",
+    "ayas": 52,
+    "juz": 29
+  },
+  {
+    "sura": 70,
+    "name_eng": "Al-Ma'aarij",
+    "name": "سُورَةُ المَعَارِجِ",
+    "type": "Meccan",
+    "ayas": 44,
+    "juz": 29
+  },
+  {
+    "sura": 71,
+    "name_eng": "Nooh",
+    "name": "سُورَةُ نُوحٍ",
+    "type": "Meccan",
+    "ayas": 28,
+    "juz": 29
+  },
+  {
+    "sura": 72,
+    "name_eng": "Al-Jinn",
+    "name": "سُورَةُ الجِنِّ",
+    "type": "Meccan",
+    "ayas": 28,
+    "juz": 29
+  },
+  {
+    "sura": 73,
+    "name_eng": "Al-Muzzammil",
+    "name": "سُورَةُ المُزَّمِّلِ",
+    "type": "Meccan",
+    "ayas": 20,
+    "juz": 29
+  },
+  {
+    "sura": 74,
+    "name_eng": "Al-Muddaththir",
+    "name": "سُورَةُ المُدَّثِّرِ",
+    "type": "Meccan",
+    "ayas": 56,
+    "juz": 29
+  },
+  {
+    "sura": 75,
+    "name_eng": "Al-Qiyaama",
+    "name": "سُورَةُ القِيَامَةِ",
+    "type": "Meccan",
+    "ayas": 40,
+    "juz": 29
+  },
+  {
+    "sura": 76,
+    "name_eng": "Al-Insaan",
+    "name": "سُورَةُ الإِنسَانِ",
+    "type": "Medinan",
+    "ayas": 31,
+    "juz": 29
+  },
+  {
+    "sura": 77,
+    "name_eng": "Al-Mursalaat",
+    "name": "سُورَةُ المُرۡسَلَاتِ",
+    "type": "Meccan",
+    "ayas": 50,
+    "juz": 29
+  },
+  {
+    "sura": 78,
+    "name_eng": "An-Naba",
+    "name": "سُورَةُ النَّبَإِ",
+    "type": "Meccan",
+    "ayas": 40,
+    "juz": 30
+  },
+  {
+    "sura": 79,
+    "name_eng": "An-Naazi'aat",
+    "name": "سُورَةُ النَّازِعَاتِ",
+    "type": "Meccan",
+    "ayas": 46,
+    "juz": 30
+  },
+  {
+    "sura": 80,
+    "name_eng": "Abasa",
+    "name": "سُورَةُ عَبَسَ",
+    "type": "Meccan",
+    "ayas": 42,
+    "juz": 30
+  },
+  {
+    "sura": 81,
+    "name_eng": "At-Takwir",
+    "name": "سُورَةُ التَّكۡوِيرِ",
+    "type": "Meccan",
+    "ayas": 29,
+    "juz": 30
+  },
+  {
+    "sura": 82,
+    "name_eng": "Al-Infitaar",
+    "name": "سُورَةُ الانفِطَارِ",
+    "type": "Meccan",
+    "ayas": 19,
+    "juz": 30
+  },
+  {
+    "sura": 83,
+    "name_eng": "Al-Mutaffifin",
+    "name": "سُورَةُ المُطَفِّفِينَ",
+    "type": "Meccan",
+    "ayas": 36,
+    "juz": 30
+  },
+  {
+    "sura": 84,
+    "name_eng": "Al-Inshiqaaq",
+    "name": "سُورَةُ الانشِقَاقِ",
+    "type": "Meccan",
+    "ayas": 25,
+    "juz": 30
+  },
+  {
+    "sura": 85,
+    "name_eng": "Al-Burooj",
+    "name": "سُورَةُ البُرُوجِ",
+    "type": "Meccan",
+    "ayas": 22,
+    "juz": 30
+  },
+  {
+    "sura": 86,
+    "name_eng": "At-Taariq",
+    "name": "سُورَةُ الطَّارِقِ",
+    "type": "Meccan",
+    "ayas": 17,
+    "juz": 30
+  },
+  {
+    "sura": 87,
+    "name_eng": "Al-A'laa",
+    "name": "سُورَةُ الأَعۡلَىٰ",
+    "type": "Meccan",
+    "ayas": 19,
+    "juz": 30
+  },
+  {
+    "sura": 88,
+    "name_eng": "Al-Ghaashiya",
+    "name": "سُورَةُ الغَاشِيَةِ",
+    "type": "Meccan",
+    "ayas": 26,
+    "juz": 30
+  },
+  {
+    "sura": 89,
+    "name_eng": "Al-Fajr",
+    "name": "سُورَةُ الفَجۡرِ",
+    "type": "Meccan",
+    "ayas": 30,
+    "juz": 30
+  },
+  {
+    "sura": 90,
+    "name_eng": "Al-Balad",
+    "name": "سُورَةُ البَلَدِ",
+    "type": "Meccan",
+    "ayas": 20,
+    "juz": 30
+  },
+  {
+    "sura": 91,
+    "name_eng": "Ash-Shams",
+    "name": "سُورَةُ الشَّمۡسِ",
+    "type": "Meccan",
+    "ayas": 15,
+    "juz": 30
+  },
+  {
+    "sura": 92,
+    "name_eng": "Al-Lail",
+    "name": "سُورَةُ اللَّيۡلِ",
+    "type": "Meccan",
+    "ayas": 21,
+    "juz": 30
+  },
+  {
+    "sura": 93,
+    "name_eng": "Ad-Dhuhaa",
+    "name": "سُورَةُ الضُّحَىٰ",
+    "type": "Meccan",
+    "ayas": 11,
+    "juz": 30
+  },
+  {
+    "sura": 94,
+    "name_eng": "Ash-Sharh",
+    "name": "سُورَةُ الشَّرۡحِ",
+    "type": "Meccan",
+    "ayas": 8,
+    "juz": 30
+  },
+  {
+    "sura": 95,
+    "name_eng": "At-Tin",
+    "name": "سُورَةُ التِّينِ",
+    "type": "Meccan",
+    "ayas": 8,
+    "juz": 30
+  },
+  {
+    "sura": 96,
+    "name_eng": "Al-Alaq",
+    "name": "سُورَةُ العَلَقِ",
+    "type": "Meccan",
+    "ayas": 19,
+    "juz": 30
+  },
+  {
+    "sura": 97,
+    "name_eng": "Al-Qadr",
+    "name": "سُورَةُ القَدۡرِ",
+    "type": "Meccan",
+    "ayas": 5,
+    "juz": 30
+  },
+  {
+    "sura": 98,
+    "name_eng": "Al-Bayyina",
+    "name": "سُورَةُ البَيِّنَةِ",
+    "type": "Medinan",
+    "ayas": 8,
+    "juz": 30
+  },
+  {
+    "sura": 99,
+    "name_eng": "Az-Zalzala",
+    "name": "سُورَةُ الزَّلۡزَلَةِ",
+    "type": "Medinan",
+    "ayas": 8,
+    "juz": 30
+  },
+  {
+    "sura": 100,
+    "name_eng": "Al-Aadiyaat",
+    "name": "سُورَةُ العَادِيَاتِ",
+    "type": "Meccan",
+    "ayas": 11,
+    "juz": 30
+  },
+  {
+    "sura": 101,
+    "name_eng": "Al-Qaari'a",
+    "name": "سُورَةُ القَارِعَةِ",
+    "type": "Meccan",
+    "ayas": 11,
+    "juz": 30
+  },
+  {
+    "sura": 102,
+    "name_eng": "At-Takaathur",
+    "name": "سُورَةُ التَّكَاثُرِ",
+    "type": "Meccan",
+    "ayas": 8,
+    "juz": 30
+  },
+  {
+    "sura": 103,
+    "name_eng": "Al-Asr",
+    "name": "سُورَةُ العَصۡرِ",
+    "type": "Meccan",
+    "ayas": 3,
+    "juz": 30
+  },
+  {
+    "sura": 104,
+    "name_eng": "Al-Humaza",
+    "name": "سُورَةُ الهُمَزَةِ",
+    "type": "Meccan",
+    "ayas": 9,
+    "juz": 30
+  },
+  {
+    "sura": 105,
+    "name_eng": "Al-Fil",
+    "name": "سُورَةُ الفِيلِ",
+    "type": "Meccan",
+    "ayas": 5,
+    "juz": 30
+  },
+  {
+    "sura": 106,
+    "name_eng": "Quraish",
+    "name": "سُورَةُ قُرَيۡشٍ",
+    "type": "Meccan",
+    "ayas": 4,
+    "juz": 30
+  },
+  {
+    "sura": 107,
+    "name_eng": "Al-Maa'un",
+    "name": "سُورَةُ المَاعُونِ",
+    "type": "Meccan",
+    "ayas": 7,
+    "juz": 30
+  },
+  {
+    "sura": 108,
+    "name_eng": "Al-Kawthar",
+    "name": "سُورَةُ الكَوۡثَرِ",
+    "type": "Meccan",
+    "ayas": 3,
+    "juz": 30
+  },
+  {
+    "sura": 109,
+    "name_eng": "Al-Kaafiroon",
+    "name": "سُورَةُ الكَافِرُونَ",
+    "type": "Meccan",
+    "ayas": 6,
+    "juz": 30
+  },
+  {
+    "sura": 110,
+    "name_eng": "An-Nasr",
+    "name": "سُورَةُ النَّصۡرِ",
+    "type": "Medinan",
+    "ayas": 3,
+    "juz": 30
+  },
+  {
+    "sura": 111,
+    "name_eng": "Al-Masad",
+    "name": "سُورَةُ المَسَدِ",
+    "type": "Meccan",
+    "ayas": 5,
+    "juz": 30
+  },
+  {
+    "sura": 112,
+    "name_eng": "Al-Ikhlaas",
+    "name": "سُورَةُ الإِخۡلَاصِ",
+    "type": "Meccan",
+    "ayas": 4,
+    "juz": 30
+  },
+  {
+    "sura": 113,
+    "name_eng": "Al-Falaq",
+    "name": "سُورَةُ الفَلَقِ",
+    "type": "Meccan",
+    "ayas": 5,
+    "juz": 30
+  },
+  {
+    "sura": 114,
+    "name_eng": "An-Naas",
+    "name": "سُورَةُ النَّاسِ",
+    "type": "Meccan",
+    "ayas": 6,
+    "juz": 30
+  }
+]
