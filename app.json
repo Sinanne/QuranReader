@@ -22,19 +22,33 @@
       }
     },
     "android": {
+      "package": "com.snanne.quranreader",
       "adaptiveIcon": {
         "foregroundImage": "./src/assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "permissions": [
+        "android.permission.RECORD_AUDIO",
+        "android.permission.MODIFY_AUDIO_SETTINGS"
+      ]
     },
     "web": {
       "favicon": "./src/assets/favicon.png"
+    },
+    "experiments": {
+      "baseUrl": "/QuranReader"
     },
     "plugins": [
       "expo-asset",
       "expo-audio",
       "expo-video",
       "expo-av"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "d69a13b4-1327-4df5-b087-bbb0c0dc1d74"
+      }
+    },
+    "owner": "cirtaa"
   }
 }
