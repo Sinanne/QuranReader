@@ -25,11 +25,19 @@
     </style>
   <link rel="icon" href="/QuranReader/favicon.ico" />
     <style id="mobile-scroll-fix">
-      html, body, #root {
+      html, body {
         width: 100%;
         height: 100%;
         margin: 0;
         padding: 0;
+        overflow: hidden;
+        -webkit-overflow-scrolling: touch;
+      }
+      #root {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
         overflow: hidden;
       }
       #root > div {
@@ -38,10 +46,19 @@
         display: flex;
         flex-direction: column;
       }
-      /* Enable smooth momentum touch scrolling on mobile Web */
+      /* Force native touch drag & momentum scrolling for all scroll containers */
+      [class*="r-overflowY"], 
+      [style*="overflow-y"], 
+      [style*="overflow: auto"], 
+      [style*="overflow: scroll"],
       div[style*="overflow"] {
         -webkit-overflow-scrolling: touch !important;
+        touch-action: pan-y !important;
         overscroll-behavior-y: contain;
+      }
+      /* Prevent PanGestureHandler from swallowing vertical scroll touches */
+      .r-touchAction-1777fci, [style*="touch-action: none"] {
+        touch-action: pan-y !important;
       }
     </style>
     
@@ -54,6 +71,6 @@
     </noscript>
     <!-- The root element for your Expo app. -->
     <div id="root"></div>
-  <script src="/QuranReader/_expo/static/js/web/index-4de3dbb1ee03d179b42dc2d06110330b.js" defer></script>
+  <script src="/QuranReader/_expo/static/js/web/index-39a8bdedf5d00f80f8df12c88d0c1a7a.js" defer></script>
 </body>
 </html>
