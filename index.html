@@ -24,22 +24,27 @@
       }
     </style>
   <link rel="icon" href="/QuranReader/favicon.ico" />
-  <script>
-    window.addEventListener('error', function(e) {
-      var el = document.getElementById('err-log') || document.createElement('div');
-      el.id = 'err-log';
-      el.style = 'position:fixed;top:0;left:0;right:0;bottom:0;background:#1a1a1a;color:#ff6b6b;padding:24px;font-family:monospace;font-size:14px;z-index:999999;white-space:pre-wrap;overflow:auto;line-height:1.5;';
-      el.innerText += '\n[ERROR]: ' + e.message + '\nSource: ' + e.filename + ':' + e.lineno + '\n' + (e.error ? e.error.stack : '') + '\n';
-      document.body.appendChild(el);
-    });
-    window.addEventListener('unhandledrejection', function(e) {
-      var el = document.getElementById('err-log') || document.createElement('div');
-      el.id = 'err-log';
-      el.style = 'position:fixed;top:0;left:0;right:0;bottom:0;background:#1a1a1a;color:#ffaa55;padding:24px;font-family:monospace;font-size:14px;z-index:999999;white-space:pre-wrap;overflow:auto;line-height:1.5;';
-      el.innerText += '\n[PROMISE REJECTION]: ' + (e.reason && e.reason.stack ? e.reason.stack : e.reason) + '\n';
-      document.body.appendChild(el);
-    });
-  </script>
+    <style id="mobile-scroll-fix">
+      html, body, #root {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+      #root > div {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+      }
+      /* Enable smooth momentum touch scrolling on mobile Web */
+      div[style*="overflow"] {
+        -webkit-overflow-scrolling: touch !important;
+        overscroll-behavior-y: contain;
+      }
+    </style>
+    
 </head>
 
   <body>
@@ -49,6 +54,6 @@
     </noscript>
     <!-- The root element for your Expo app. -->
     <div id="root"></div>
-  <script src="/QuranReader/_expo/static/js/web/index-c39754c87103b3f2d5296781113073ec.js" defer></script>
+  <script src="/QuranReader/_expo/static/js/web/index-4de3dbb1ee03d179b42dc2d06110330b.js" defer></script>
 </body>
 </html>
