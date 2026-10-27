@@ -6,9 +6,9 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "build:web": "expo export -p web",
+    "build:web": "expo export -p web && node scripts/fix-web.js",
     "predeploy": "npm run build:web",
-    "deploy": "gh-pages -d dist",
+    "deploy": "gh-pages -d dist --nojekyll -t",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "lint:fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix"
   },
