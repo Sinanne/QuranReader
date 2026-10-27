@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import { View, StyleSheet, ScrollView, TouchableOpacity } from 'react-native';
+import { View, StyleSheet, ScrollView, TouchableOpacity, Platform } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useNavigation, useFocusEffect } from '@react-navigation/native';
 import { Compass } from 'lucide-react-native';
@@ -126,6 +126,8 @@ const styles = StyleSheet.create({
   },
   scrollView: {
     flex: 1,
+    height: '100%',
+    touchAction: 'pan-y',
   },
   content: {
     paddingHorizontal: SPACING.lg,

@@ -29,11 +29,19 @@ if (fs.existsSync(indexHtmlPath)) {
     let html = fs.readFileSync(indexHtmlPath, 'utf8');
     const scrollStyles = `
     <style id="mobile-scroll-fix">
-      html, body, #root {
+      html, body {
         width: 100%;
         height: 100%;
         margin: 0;
         padding: 0;
+        overflow: hidden;
+        -webkit-overflow-scrolling: touch;
+      }
+      #root {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
         overflow: hidden;
       }
       #root > div {
@@ -42,16 +50,25 @@ if (fs.existsSync(indexHtmlPath)) {
         display: flex;
         flex-direction: column;
       }
-      /* Enable smooth momentum touch scrolling on mobile Web */
+      /* Force native touch drag & momentum scrolling for all scroll containers */
+      [class*="r-overflowY"], 
+      [style*="overflow-y"], 
+      [style*="overflow: auto"], 
+      [style*="overflow: scroll"],
       div[style*="overflow"] {
         -webkit-overflow-scrolling: touch !important;
+        touch-action: pan-y !important;
         overscroll-behavior-y: contain;
+      }
+      /* Prevent PanGestureHandler from swallowing vertical scroll touches */
+      .r-touchAction-1777fci, [style*="touch-action: none"] {
+        touch-action: pan-y !important;
       }
     </style>
     `;
-    if (!html.includes('mobile-scroll-fix')) {
-        html = html.replace('</head>', `${scrollStyles}\n</head>`);
-        fs.writeFileSync(indexHtmlPath, html);
-        console.log('[fix-web] Added mobile-scroll-fix to index.html');
-    }
+    // Clean old mobile-scroll-fix if exists and inject new
+    html = html.replace(/<style id="mobile-scroll-fix">[\s\S]*?<\/style>/g, '');
+    html = html.replace('</head>', `${scrollStyles}\n</head>`);
+    fs.writeFileSync(indexHtmlPath, html);
+    console.log('[fix-web] Injected updated mobile-scroll-fix into index.html');
 }

@@ -15,6 +15,8 @@ import MemorizationPickerScreen from '../screens/MemorizationPickerScreen';
 // Theme
 import { COLORS } from '../theme/colors';
 
+import { Platform } from 'react-native';
+
 const Stack = createStackNavigator();
 
 const RootNavigator = () => {
@@ -24,7 +26,9 @@ const RootNavigator = () => {
                 headerStyle: { backgroundColor: COLORS.brand?.background || '#0D1F16' },
                 headerTintColor: COLORS.text?.primary || '#FFFFFF',
                 headerTitleStyle: { fontWeight: 'bold' },
-                ...TransitionPresets.SlideFromRightIOS,
+                ...(Platform.OS !== 'web' ? TransitionPresets.SlideFromRightIOS : {}),
+                gestureEnabled: Platform.OS !== 'web',
+                animationEnabled: Platform.OS !== 'web',
             }}
         >
             <Stack.Screen

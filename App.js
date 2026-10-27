@@ -3,6 +3,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import * as Font from 'expo-font';
 import * as SplashScreen from 'expo-splash-screen';
 
+import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { SettingsProvider } from './src/context/SettingsContext';
 import LoadingScreen from './src/components/LoadingScreen';
 import ErrorBoundary from './src/components/ErrorBoundary';
@@ -39,13 +40,15 @@ const App = () => {
   if (!fontsLoaded) return <LoadingScreen />;
 
   return (
-    <ErrorBoundary retryButton={true}>
-      <SettingsProvider>
-        <NavigationContainer>
-          <RootNavigator />
-        </NavigationContainer>
-      </SettingsProvider>
-    </ErrorBoundary>
+    <SafeAreaProvider style={{ flex: 1 }}>
+      <ErrorBoundary retryButton={true}>
+        <SettingsProvider>
+          <NavigationContainer>
+            <RootNavigator />
+          </NavigationContainer>
+        </SettingsProvider>
+      </ErrorBoundary>
+    </SafeAreaProvider>
   );
 };
 
