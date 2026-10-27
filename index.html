@@ -23,7 +23,24 @@
         flex: 1;
       }
     </style>
-  <link rel="icon" href="/QuranReader/favicon.ico" /></head>
+  <link rel="icon" href="/QuranReader/favicon.ico" />
+  <script>
+    window.addEventListener('error', function(e) {
+      var el = document.getElementById('err-log') || document.createElement('div');
+      el.id = 'err-log';
+      el.style = 'position:fixed;top:0;left:0;right:0;bottom:0;background:#1a1a1a;color:#ff6b6b;padding:24px;font-family:monospace;font-size:14px;z-index:999999;white-space:pre-wrap;overflow:auto;line-height:1.5;';
+      el.innerText += '\n[ERROR]: ' + e.message + '\nSource: ' + e.filename + ':' + e.lineno + '\n' + (e.error ? e.error.stack : '') + '\n';
+      document.body.appendChild(el);
+    });
+    window.addEventListener('unhandledrejection', function(e) {
+      var el = document.getElementById('err-log') || document.createElement('div');
+      el.id = 'err-log';
+      el.style = 'position:fixed;top:0;left:0;right:0;bottom:0;background:#1a1a1a;color:#ffaa55;padding:24px;font-family:monospace;font-size:14px;z-index:999999;white-space:pre-wrap;overflow:auto;line-height:1.5;';
+      el.innerText += '\n[PROMISE REJECTION]: ' + (e.reason && e.reason.stack ? e.reason.stack : e.reason) + '\n';
+      document.body.appendChild(el);
+    });
+  </script>
+</head>
 
   <body>
     <!-- Use static rendering with Expo Router to support running without JavaScript. -->
