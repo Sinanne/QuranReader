@@ -22,3 +22,36 @@ if (fs.existsSync(webJsDir)) {
 const nojekyllPath = path.join(__dirname, '..', 'dist', '.nojekyll');
 fs.writeFileSync(nojekyllPath, '');
 console.log('[fix-web] Ensured .nojekyll in dist');
+
+// Ensure mobile touch scrolling and viewport styles in index.html
+const indexHtmlPath = path.join(__dirname, '..', 'dist', 'index.html');
+if (fs.existsSync(indexHtmlPath)) {
+    let html = fs.readFileSync(indexHtmlPath, 'utf8');
+    const scrollStyles = `
+    <style id="mobile-scroll-fix">
+      html, body, #root {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+      #root > div {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+      }
+      /* Enable smooth momentum touch scrolling on mobile Web */
+      div[style*="overflow"] {
+        -webkit-overflow-scrolling: touch !important;
+        overscroll-behavior-y: contain;
+      }
+    </style>
+    `;
+    if (!html.includes('mobile-scroll-fix')) {
+        html = html.replace('</head>', `${scrollStyles}\n</head>`);
+        fs.writeFileSync(indexHtmlPath, html);
+        console.log('[fix-web] Added mobile-scroll-fix to index.html');
+    }
+}

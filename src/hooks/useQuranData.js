@@ -14,6 +14,29 @@ try {
 try { translationDataFr = require('../data/QuranFR.json'); } catch (e) { console.log('FR data missing'); }
 try { translationDataEs = require('../data/QuranES.json'); } catch (e) { console.log('ES data missing'); }
 
+let cachedNormalizedData = null;
+function getNormalizedQuranData() {
+    if (cachedNormalizedData) return cachedNormalizedData;
+    if (!quranData) return [];
+    try {
+        cachedNormalizedData = quranData.map((aya, index) => {
+            let text = aya.aya;
+            if (aya.details.sura !== 1 && aya.details.aya_sura_id === 1) {
+                text = text.replace(/^[\uFEFF\s]*بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ\s*/, '');
+            }
+            return {
+                ...aya,
+                aya: text,
+                id: index,
+            };
+        });
+        return cachedNormalizedData;
+    } catch (error) {
+        console.error('Error normalizing Quran data:', error);
+        return [];
+    }
+}
+
 export const useQuranData = () => {
     // Connect to Zustand Store
     const readingLanguage = useStore(state => state.settings.readingLanguage);
@@ -28,28 +51,7 @@ export const useQuranData = () => {
         return translationDataEn || [];
     }, [readingLanguage]);
 
-    const normalizedData = useMemo(() => {
-        try {
-            if (!quranData) return [];
-            return quranData.map((aya, index) => {
-                let text = aya.aya;
-                // Remove Bismillah from first ayah of surahs (except Al-Fatiha)
-                if (aya.details.sura !== 1 && aya.details.aya_sura_id === 1) {
-                    text = text.replace(/^[\uFEFF\s]*بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ\s*/, '');
-                }
-
-                return {
-                    ...aya,
-                    aya: text,
-                    id: index,
-                };
-            });
-        } catch (error) {
-            console.error('Error normalizing Quran data:', error);
-            setDataError('Failed to load Quran data');
-            return [];
-        }
-    }, []);
+    const normalizedData = useMemo(() => getNormalizedQuranData(), []);
 
     const getTranslation = useCallback((sura, ayaSuraId) => {
         try {

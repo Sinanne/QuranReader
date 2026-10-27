@@ -8,7 +8,7 @@ const DEFAULT_SETTINGS = {
     // Theme & UI
     themeMode: 'light', // 'light' | 'dark' | 'system'
     isDarkMode: false, // Computed or explicit
-    readingStyle: 'Normal', // 'Ayah', 'Continuous', 'Mushaf'
+    readingStyle: 'Ayah', // 'Ayah', 'Continuous', 'Mushaf'
 
     // Reading Prefs
     fontSize: 18,

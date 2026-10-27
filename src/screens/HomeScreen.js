@@ -121,6 +121,8 @@ const HomeScreen = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    height: '100%',
+    overflow: 'hidden',
   },
   scrollView: {
     flex: 1,
@@ -128,6 +130,7 @@ const styles = StyleSheet.create({
   content: {
     paddingHorizontal: SPACING.lg,
     paddingBottom: SPACING.xxl,
+    flexGrow: 1,
   },
   exploreCard: {
     borderRadius: 16,

@@ -1,7 +1,9 @@
 import React, { useState, useMemo, useCallback, useEffect } from 'react';
-import { View, StyleSheet, TouchableOpacity, Platform, StatusBar } from 'react-native';
+import { View, StyleSheet, TouchableOpacity, Platform, StatusBar, FlatList } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { FlashList } from '@shopify/flash-list';
+
+const ListComponent = Platform.OS === 'web' ? FlatList : FlashList;
 import { useNavigation, useFocusEffect } from '@react-navigation/native';
 import { COLORS } from '../theme/colors';
 import { SPACING } from '../theme/spacing';
@@ -128,7 +130,7 @@ const ExploreScreen = () => {
   return (
     <SafeAreaView style={[styles.container, { backgroundColor: colors.background }]} edges={['top']}>
       <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
-      <FlashList
+      <ListComponent
         data={filteredData}
         keyExtractor={(item) => item.sura.toString()}
         renderItem={({ item, index }) => {
@@ -158,6 +160,8 @@ const ExploreScreen = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    height: '100%',
+    overflow: 'hidden',
   },
   headerContainer: {
     paddingHorizontal: SPACING.lg,

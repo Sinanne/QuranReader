@@ -1,5 +1,5 @@
 import React, { useCallback, useMemo, useEffect, useRef, useState } from 'react';
-import { View, StyleSheet, TouchableOpacity, Text } from 'react-native';
+import { View, StyleSheet, TouchableOpacity, Text, FlatList, Platform } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { FlashList } from '@shopify/flash-list';
 import { useStore } from '../store/useStore';
@@ -23,6 +23,22 @@ import QuranEn from '../data/QuranEn.json';
 import QuranEs from '../data/QuranES.json';
 import QuranFr from '../data/QuranFR.json';
 
+const ListComponent = Platform.OS === 'web' ? FlatList : FlashList;
+
+const cachedTranslationMaps = {};
+function getTranslationMap(lang) {
+  if (cachedTranslationMaps[lang]) return cachedTranslationMaps[lang];
+  let activeData = QuranEn;
+  if (lang === 'es') activeData = QuranEs;
+  else if (lang === 'fr') activeData = QuranFr;
+  const map = {};
+  activeData.forEach(item => {
+    map[item.aya_id] = item.aya_eng;
+  });
+  cachedTranslationMaps[lang] = map;
+  return map;
+}
+
 const ReadingScreen = ({ route, navigation }) => {
   const { colors } = useTheme();
   const settings = useStore(state => state.settings);
@@ -36,23 +52,12 @@ const ReadingScreen = ({ route, navigation }) => {
   const { bookmarked, favorites, toggleBookmark, toggleFavorite } = useBookmarkFavorite();
 
   // Mode state: 'Ayah' (default), 'Continuous', 'Mushaf'
-  const mode = settings.readingStyle || 'Ayah';
+  const validModes = ['Ayah', 'Continuous', 'Mushaf'];
+  const mode = validModes.includes(settings.readingStyle) ? settings.readingStyle : 'Ayah';
 
-  // Build translation map based on selected language
+  // Build translation map based on selected language (instant lookup from cache)
   const translationMap = useMemo(() => {
-    const map = {};
-    let activeData = QuranEn;
-
-    if (settings.readingLanguage === 'es') {
-      activeData = QuranEs;
-    } else if (settings.readingLanguage === 'fr') {
-      activeData = QuranFr;
-    }
-
-    activeData.forEach(item => {
-      map[item.aya_id] = item.aya_eng;
-    });
-    return map;
+    return getTranslationMap(settings.readingLanguage || 'en');
   }, [settings.readingLanguage]);
 
   // Filter data for the specific Surah
@@ -142,9 +147,9 @@ const ReadingScreen = ({ route, navigation }) => {
         onToggleFontSize={cycleFontSize}
       />
 
-      <View style={{ flex: 1 }}>
+      <View style={{ flex: 1, minHeight: 0 }}>
         {mode === 'Ayah' && (
-          <FlashList
+          <ListComponent
             data={surahContent}
             renderItem={renderItem}
             estimatedItemSize={200}
@@ -181,6 +186,8 @@ const ReadingScreen = ({ route, navigation }) => {
 const styles = StyleSheet.create({
   root: {
     flex: 1,
+    height: '100%',
+    overflow: 'hidden',
   },
   headerContainer: {
     position: 'relative',
