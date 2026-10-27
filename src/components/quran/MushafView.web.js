@@ -92,6 +92,8 @@ const MushafView = ({ data }) => {
 const styles = StyleSheet.create({
     pager: {
         flex: 1,
+        height: '100%',
+        minHeight: 0,
     },
     scrollContent: {
         flexDirection: 'row',

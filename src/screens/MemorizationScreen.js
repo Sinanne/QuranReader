@@ -81,7 +81,7 @@ const MemorizationScreen = ({ navigation }) => {
                 <AppText style={[styles.title, { color: colors.text }]}>Hifz Dashboard</AppText>
             </View>
 
-            <ScrollView contentContainerStyle={styles.content}>
+            <ScrollView style={styles.scrollView} contentContainerStyle={styles.content}>
 
                 {/* 1. Contribution Heatmap */}
                 <View style={[styles.card, { backgroundColor: colors.surface, borderColor: colors.border }]}>
@@ -153,6 +153,14 @@ const MemorizationScreen = ({ navigation }) => {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
+        height: '100%',
+        minHeight: 0,
+        overflow: 'hidden',
+    },
+    scrollView: {
+        flex: 1,
+        height: '100%',
+        minHeight: 0,
     },
     header: {
         padding: 20,

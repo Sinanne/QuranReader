@@ -114,7 +114,7 @@ const ProgressScreen = () => {
                 <View style={{ width: 24 }} />
             </View>
 
-            <ScrollView contentContainerStyle={styles.scrollContent} showsVerticalScrollIndicator={false}>
+            <ScrollView style={styles.scrollView} contentContainerStyle={styles.scrollContent} showsVerticalScrollIndicator={false}>
 
                 {/* Tabs */}
                 <View style={[styles.tabsContainer, { backgroundColor: colors.surface, borderColor: colors.border, borderWidth: 1 }]}>
@@ -275,6 +275,14 @@ const ProgressScreen = () => {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
+        height: '100%',
+        minHeight: 0,
+        overflow: 'hidden',
+    },
+    scrollView: {
+        flex: 1,
+        height: '100%',
+        minHeight: 0,
     },
     header: {
         flexDirection: 'row',

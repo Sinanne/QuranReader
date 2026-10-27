@@ -26,6 +26,7 @@ const RootNavigator = () => {
                 headerStyle: { backgroundColor: COLORS.brand?.background || '#0D1F16' },
                 headerTintColor: COLORS.text?.primary || '#FFFFFF',
                 headerTitleStyle: { fontWeight: 'bold' },
+                cardStyle: { flex: 1, height: '100%', maxHeight: '100%', minHeight: 0, overflow: 'hidden' },
                 ...(Platform.OS !== 'web' ? TransitionPresets.SlideFromRightIOS : {}),
                 gestureEnabled: Platform.OS !== 'web',
                 animationEnabled: Platform.OS !== 'web',

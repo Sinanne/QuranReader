@@ -113,7 +113,7 @@ const SettingsScreen = ({ navigation }) => {
                 <View style={{ width: 24 }} />
             </View>
 
-            <ScrollView contentContainerStyle={styles.scrollContent}>
+            <ScrollView style={styles.scrollView} contentContainerStyle={styles.scrollContent}>
                 {/* Profile Header */}
                 <View style={styles.profileSection}>
                     <View style={[styles.avatarContainer, { backgroundColor: colors.surface, borderColor: colors.primary }]}>
@@ -246,6 +246,14 @@ const SettingsScreen = ({ navigation }) => {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
+        height: '100%',
+        minHeight: 0,
+        overflow: 'hidden',
+    },
+    scrollView: {
+        flex: 1,
+        height: '100%',
+        minHeight: 0,
     },
     header: {
         flexDirection: 'row',
